@@ -1,66 +1,56 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://kit.fontawesome.com/153e318ec2.js" crossorigin="anonymous"></script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link href="css.css" rel="stylesheet">
-    <title>Curriculum Vitae</title>
-</head>
-<body>
-    <div id="site">
-        <div id="header">
-            <h1>Leonardo Valentin dos Santos</h1>
-        </div>
-        <div class="right">
-            <i class="fas fa-map-marker-alt">&nbsp&nbsp Pederneiras, SP</i><br><br>
-            <i class="fab fa-github-square"><a href="https://github.com/leonardo-valentin" style="color:black"> <b>&nbsp&nbsp/leonardo-valentin</b></a></i><br><br>
-            <i class="fas fa-envelope">&nbsp&nbsp leo.v.santosbr@gmail.com</i><br><br>
-            <i class="fas fa-phone">&nbsp&nbsp+55 14 981244138</i>
-        </div>  
-        <div>
-            <img src="Img/Leo.jpeg" alt="...">
-        </div>
-        <div id="formacao">
-            <h2>Sobre mim</h2>
-            <p>Atualmente, estou em busca de uma oportunidade de estágio ligado à área de TI. Não
-            possuo experiência no mercado de trabalho, porém, essa é uma oportunidade de trabalhar e aprender mais sobre a área. 
-             Sou esforçado e tenho muita vontade de aprender, estou aberto a possibilidade de viajar para Bauru para estagiar e desejo no futuro fazer uma faculdade na área de TI no período noturno.</p>
-        </div>
-        <div id="skills">
-            <h2>Skills</h2>
-            <p>Estou fazendo diversos cursos na área de
-                desenvolvimento à medida que aparecem
-                trabalhos e desafios na escola, como <u><a href="https://cursoemvideo.com/course/curso-de-git-e-github/" style="color: black">
-                curso de Git e Github</a></u> da plataforma Curso
-                em Vídeo, o curso de<u><a href="https://www.edx.org/course/cs50s-introduction-to-computer-science" style="color: black"> Introdução à Ciência
-                da Computação (CS50)</a></u> da Universidade de
-                Harvard e o <u><a href="https://www.udemy.com/course/introducao-a-linguagem-html/" style="color: black"> curso de Introdução à
-                linguagem HTML</a></u> na plataforma Udemy. </p>
-        </div>  
-        <div class="esquerda">
-            <h2>Formação</h2>
-            <p><b>ETEC - Joaquim Ferreira
-                do Amaral, Jaú</b> 2018 - 2020
-            </p>
-             <p>Estou estudando no 3° ano do ensino médio integrado
-                ao técnico de informática da escola, onde aprendi um pouco 
-                dos conceitos básicos de desenvolvimento, como HTML,
-                CSS, bancos de dados SQL e linguagens de
-                programação (Delphi, PHP e um pouco de
-                Java).</p>
-        </div>
- 
-        <div class="esquerda">
-            <h2>Idiomas</h2>
-            <p><b>Inglês Intermediário </b>- conversação,
-                escrever pequenos textos, acompanhar
-                aulas e cursos em Inglês e leitura de textos
-                em inglês.</p>
-        </div>
-        </div>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="./styles/style.css">
+        <!--<link rel="stylesheet" href="reset.css">-->
+    </head>
+    <body>
+        <header class="cabecalho">
+            <nav class="cabecalho__menu">
+                <a class="cabecalho__menu__link" href="index.html">Home</a>
+                <a class="cabecalho__menu__link" href="about.html">Sobre Mim</a>
+                <a class="cabecalho__menu__link" href="CV.html">CV</a>
+            </nav>
+        </header>
+
+        <main class="apresentacao">
+            <section class="apresentacao__conteudo">
+                <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível <strong class="titulo-destaque">com um Front-end de qualidade!</strong></h1>
+
+                <p class="apresentacao__conteudo__texto">Olá! Sou Leonardo, aspirante ã desenvolvedor Front-end com especialidade em React, 
+                    HTML e CSS. Produzo pequenos projetos e tento colocar em prática 
+                    boas ideias. Vamos conversar?</p>
+                <div class="apresentacao__links">
+
+                    <h2 class="apresentacao__links__subtitulo">Acesse minhas redes</h2>
+
+                    <a class="apresentacao__links__link" href="https://github.com/leonardo-valentin">
+                        <img src="./assets/github.png">
+                        GitHub
+                    </a>
+
+                    <a class="apresentacao__links__link" href="https://www.linkedin.com/in/leonardo-valentin-4573a0156/">
+                        <img src="./assets/linkedin.png">
+                        Linkedln
+                    </a>
+
+                    <a class="apresentacao__links__link" href="https://twitter.com/DevLewoo">
+                        <img src="./assets/twitter.png">
+                        Twitter
+                    </a>
+
+                </div>
+            </section>
+            <img src="assets/foto.jpg" alt="foto do léo">
+
+        </main>
+
+        <footer class="rodape">
+            <p> Desenvolvido por Leonardo </p>
+        </footer>
+    </body>
 </html>
