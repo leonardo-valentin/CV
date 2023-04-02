@@ -36,22 +36,23 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 82px;
 }
 
 .apresentacao__conteudo {
-    width: 615px;
+    width: 50%;
     display: flex;
     gap: 40px;
     flex-direction: column;
 }
 
 .apresentacao__conteudo__titulo {
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: var(--fonte-primaria);
 }
 
 .apresentacao__conteudo__texto {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--fonte-secundaria);
 }
 
@@ -63,20 +64,20 @@ body {
     justify-content: space-between;
 }
 
-.apresentacao__links__link {
+.apresentacao__links__navegacao {
     display: flex;
     justify-content: center;
     gap:16px;
     font-weight: 600;
     font-family: var(--fonte-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     text-decoration: none;
     text-align: center;
     border: 2px solid var(--cor-terciaria);
     border-radius: 8px;
     padding: 21.5px 0px;
     color: var(--cor-secundaria);
-    width: 378px;
+    width: 50%;
 }
 
 .apresentacao__links__link:hover {
@@ -87,13 +88,17 @@ body {
 .apresentacao__links__subtitulo {
     font-family: var(--fonte-primaria);
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
+}
+
+.apresentacao-img {
+    width: 50%;
 }
 
 .rodape {
     font-family: var(--fonte-secundaria);
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
     text-align: center;
     padding: 25px;
     background-color: var(--cor-terciaria);
@@ -112,7 +117,7 @@ body {
 .cabecalho__menu__link {
     font-family: var(--fonte-secundaria);
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
     color: var(--cor-terciaria);
     text-decoration: none;
 }
@@ -132,4 +137,33 @@ body {
     display: flex;
     gap: 40px;
     flex-direction: column;
+}
+
+@media (max-width: 1200px) {
+
+    
+    .cabecalho {
+        padding: 10%;
+    }
+
+    .cabecalho__menu {
+        justify-content: center;
+    }
+
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo__about {
+        width: auto;
+    }
+
+    .apresentacao__conteudo {
+        width: auto;
+    }
+
+    .rodape {
+        width: 100%;
+    }
 }
