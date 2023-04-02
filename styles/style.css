@@ -80,9 +80,8 @@ body {
     width: 50%;
 }
 
-.apresentacao__links__link:hover {
+.apresentacao__links__navegacao:hover {
     background-color: var(--cor-hover);
-    margin-left: 50px;
 }
 
 .apresentacao__links__subtitulo {
